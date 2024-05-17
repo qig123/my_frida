@@ -59,6 +59,7 @@ def doHook(packagename, scriptfile, bSpawn=False):
 
 
 if __name__ == '__main__':
+    # frida -U  'Frida 0x7' -l _fcagent.js  
     # device = frida.get_device_manager()\
     #     .add_remote_device("127.0.0.1:3333")
     device = frida.get_usb_device(1)
@@ -70,7 +71,8 @@ if __name__ == '__main__':
     # doHook('com.autonavi.cprotectortest', '_fcagent.js', True)
     # doHook('com.autonavi.minimap', '_fcagent.js', True)
     # doHook('com.ss.android.ugc.aweme', '_fcagent.js', True)
-    doHook('com.google.android.apps.maps', '_fcagent.js', True)
+    #"com.ad2001.frida0x5"  Frida 0x4
+    doHook('com.ad2001.frida0xb', '_fcagent.js', True)
     # doHook('com.baidu.BaiduMap', '_fcagent.js', True)
 
     # script.post({

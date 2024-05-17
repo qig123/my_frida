@@ -1,14 +1,11 @@
 /**
- * @author: xingjun.xyf
- * @contact: deathmemory@163.com
- * @file: AntiDexLoader.js
- * @time: 2020/4/16 5:03 PM
+ 题目https://github.com/DERE-ad2001/Frida-Labs
  * @desc:
  */
-import { DMLog } from "./utils/dmlog";
-import { FCCommon } from "./utils/FCCommon";
+import { DMLog } from "../utils/dmlog";
+import { FCCommon } from "../utils/FCCommon";
 // import {DianPing} from "./agent/dp/dp";
-import { FCAnd } from "./utils/FCAnd";
+import { FCAnd } from "../utils/FCAnd";
 
 // rpc.exports = {
 //     f2: f_02
